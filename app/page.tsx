@@ -2,7 +2,7 @@ import { Hero } from "@/components";
 
 export default function Home() {
   return (
-    <main>
+    <main style={{ overflow: "hidden" }}>
       <Hero/>
     </main>
   );
